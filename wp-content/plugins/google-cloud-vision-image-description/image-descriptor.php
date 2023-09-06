@@ -59,10 +59,12 @@ try {
     $media_directory = WP_CONTENT_DIR . '/uploads/';
 
 
-    echo("before foreach: ".$selectedImageIds);
+    echo("before foreach: ");
+    var_dump($selectedImageIds);
     foreach ($selectedImageIds as $image_id) {
+        echo("test: ".$image_id);
         $image_file = get_attached_file($image_id);
-        echo("before update_image_descriptions");
+        echo("before update_image_descriptions: ".$image_id);
         update_image_descriptions($image_id, $image_file, $imageAnnotator);
         echo("after update_image_descriptions");
 
