@@ -1,0 +1,135 @@
+/* Dark Content Background
+--------------------------------------------- */
+.editor-styles-wrapper.editor-styles-wrapper {
+	background: #000;
+	color: #999fa3;
+}
+
+.editor-styles-wrapper.editor-styles-wrapper .editor-post-title__input,
+.editor-styles-wrapper.editor-styles-wrapper .editor-post-title .editor-post-title__input,
+.editor-styles-wrapper.editor-styles-wrapper h1,
+.editor-styles-wrapper.editor-styles-wrapper h2,
+.editor-styles-wrapper.editor-styles-wrapper h3,
+.editor-styles-wrapper.editor-styles-wrapper h4,
+.editor-styles-wrapper.editor-styles-wrapper h5,
+.editor-styles-wrapper.editor-styles-wrapper h6 {
+	color: #ffffff;
+}
+
+.editor-styles-wrapper mark,
+.editor-styles-wrapper ins {
+	background: #52503e;
+}
+
+.editor-styles-wrapper .wp-block-quote .wp-block-quote__citation,
+.editor-styles-wrapper blockquote .wp-block-quote__citation,
+.editor-styles-wrapper blockquote cite,
+.editor-styles-wrapper blockquote footer {
+	color: #a7a7a7;
+}
+
+.editor-styles-wrapper .wp-block-code,
+.editor-styles-wrapper pre,
+.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce pre {
+	color: #fff;
+}
+
+.editor-styles-wrapper .wp-block-pullquote {
+	border-top-color: #a7a7a7;
+	border-bottom-color: #a7a7a7;
+	color: #a7a7a7;
+}
+
+.editor-styles-wrapper .wp-block-pullquote p {
+	color: #fff;
+}
+
+.editor-styles-wrapper .wp-block-table figcaption,
+.editor-styles-wrapper .wp-block-video figcaption,
+.editor-styles-wrapper .wp-block-audio figcaption,
+.editor-styles-wrapper .wp-block-embed figcaption,
+.editor-styles-wrapper .wp-block-image figcaption,
+.editor-styles-wrapper .wp-block-gallery figcaption,
+.editor-styles-wrapper .wp-block-calendar table caption,
+.editor-styles-wrapper .wp-block-calendar table tbody {
+	color: #a7a7a7;
+}
+
+.editor-styles-wrapper .wp-block-calendar table th {
+	background-color: transparent;
+}
+
+.editor-styles-wrapper .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+	background-color: #232323;
+}
+
+.editor-styles-wrapper .wp-block-latest-posts .wp-block-latest-posts__post-author,
+.editor-styles-wrapper .wp-block-latest-posts .wp-block-latest-posts__post-date,
+.editor-styles-wrapper .wp-block-rss .wp-block-rss__item-author,
+.editor-styles-wrapper .wp-block-rss .wp-block-rss__item-publish-date {
+	color: #a7a7a7;
+}
+
+.editor-styles-wrapper .block-editor-button-block-appender {
+	box-shadow: inset 0 0 0 1px #555;
+}
+
+.editor-styles-wrapper.editor-styles-wrapper .block-editor-plain-text {
+	color: #32373c;
+}
+
+.editor-styles-wrapper.editor-styles-wrapper a {
+	color: #b57de3;
+}
+
+.editor-styles-wrapper.editor-styles-wrapper a:hover,
+.editor-styles-wrapper.editor-styles-wrapper a:focus,
+.editor-styles-wrapper.editor-styles-wrapper a:active {
+	color: #e558f2;
+}
+
+/* Block Patterns
+--------------------------------------------- */
+.editor-styles-wrapper .pressbook-hero-section__title {
+	margin: 0 0 .95em 0;
+	font-size: 2em;
+}
+
+.editor-styles-wrapper .pressbook-hero-section__desc {
+	margin: 0 0 2em 0;
+	font-size: 1em;
+}
+
+.editor-styles-wrapper .pressbook-hero-section__button .wp-block-button__link {
+	font-size: 1em;
+	padding: .6em 1.2em .65em 1.2em;
+}
+
+.editor-styles-wrapper .pressbook-hero-section .wp-block-buttons,
+.editor-styles-wrapper .pressbook-hero-section .wp-block-buttons .wp-block-button {
+	margin-top: 0;
+}
+
+.editor-styles-wrapper .pressbook-hero-section .wp-block-buttons {
+	margin-bottom: 0;
+}
+
+.editor-styles-wrapper .pressbook-hero-section .wp-block-buttons .wp-block-button,
+.editor-styles-wrapper .pressbook-column-content .pressbook-column-content-button {
+	margin-bottom: 1.5em;
+}
+
+.editor-styles-wrapper .pressbook-column-content .pressbook-column-content-button .wp-block-button__link {
+	font-size: .9em;
+	padding: .5em 1em;
+}
+
+.editor-styles-wrapper .pressbook-hero-section .wp-block-buttons>.wp-block-button {
+	margin-right: .75em !important;
+	margin-left: 0 !important;
+}
+
+.editor-styles-wrapper .pressbook-hero-section .wp-block-buttons>.wp-block-button:last-child {
+	margin-right: 0;
+	margin-left: 0;
+}

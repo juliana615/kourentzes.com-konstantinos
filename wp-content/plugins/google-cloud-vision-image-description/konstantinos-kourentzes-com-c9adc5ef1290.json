@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "konstantinos-kourentzes-com",
+  "private_key_id": "c9adc5ef1290432a10e14938dcb9683d3d11397c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGYShHz5GMJFff\nDtLGsUatiwPHgMejiI+9q4Y85iQbzS/g0P4IC3fJ4f29LuAQ5B76q7fAaF+5rHUS\nkvToRdR0VJaKN/sTmbJUn/CB841EjpvWsMPxqPofESNxT81inLyQ+k2xuxZMU9lD\ncHBtJxfwn3gSX8pM+V+6wR+OPAh+5HoyPm/U8GC4O6RklPF51b2VShwSI04MO/cg\nZL+6Xw31lADMOvJ9g5fyKPhf8Qqas8ZOifkU8+PUt8VdcACOAqJj+BfEvJFpT8Tx\nGrROt6yZNsMofkgVV/z4OZ/e9G0NHoHwrH4B50UrR3zrt1l+MoYtl42CIjoDWUJq\nfTuR4e1XAgMBAAECggEABhr9Y2BnCVog/jN1lznjg/nQTvaOrmDIk7zQr9UhbV2e\nSJwGBXdc43C6H3Vu3fY3Yd2hFSHhOFSvcbfmI7Pqev4TeAOLDapgS6x0eXtmcKK2\n9x+PmENsF0KuxZEAMDXEs+2QMJUidYzrFeFDBIj8eqJdzqr2DfJq2NOSxgzg8g7G\nMlSWptSNdLivLZGX/9r8dTSx9UFx6SpSCEN0b7F0VpSG5nQVNEH2DqcH14SsC2qo\nUdKI6QxJTUi8yaYC3fLMjK3Ist4CmXN4AxntElq9cd/OJQ8v607hnMVtPnMmb+ka\n0ZEAn7bX3sDZ0B6wsKpt5gh9EPOmCmbI8eAwyzNASQKBgQDveO1Zl1W/Hqaq9fhO\n43nX5TV0Fumc7aGZTLIVc3Nn66J1QJNmc35R9+sQDL2rtGB6G975BER+ZTq43hwT\nTFA+oUpNVwZDQZjnjTe4B4pRniX7VAhRm53vad+GDSrkaA+w0hYr97iMM18yB+4x\n85ZtQamAVOVdoOmm6IWufU+mWwKBgQDUEjBX7sKTORqilfyD8TyCB8OIYlxyeE6R\nyl7vbicrrrRO4TOVpFX0iww39jqpIyiPBkOX6nT31INCQ1HUo5hvP+hhYdGIu/MX\n9JWrI8pBZEBfpRO6gX6Jeaipw4WlMb6jFr2kUhZoCzwdlShelH6Ue++wV2lpQrpR\n77yTH3sdtQKBgQDZ0okyoPEh8uNvRmUifM9rjdXdTqoYUB5ZruWdlXI36KHRPXfW\nDN+t93AdHTm5YU0QRSHAKB2VSsbrOT0YYKXtEhDf4HSV4KkQledEwbcTHmM2BO28\nLWyvRQJIkNmfAPikwbPhMmbvQBsrCwOi9Aq0PrHLRW2MiL1/UKmoWduFWQKBgAPn\nCci0dhQretf/FpR+/fQOnISH+teIazm3laOmTUY6gsrozgA08/f6DxGAkHfIU9i9\n7sR+5gQhfwDbKEhXclipvmb8W9S+UKziLVbm47PsWlroOMK321JAUOA+3ti5X560\nrmy1rf/gJQ0OT53d8a5d0X1XPnNXbQJQ/RFgBO35AoGBAMcbbZtGAuzYvMaHGLau\nQvAq2fomVGyXInSPey4Uuo9WERXULHXmK0A96wlGV3iMRLijX7tn/QCcioctBk5e\nlBm2OIh07UA8eE7VA3HUo9qU9jYByF8d2KQHORj4Gq/9GQ0E3qOCl/KsnEW4MA7y\n0RRk4l3a4HnFpOWVFGutakqw\n-----END PRIVATE KEY-----\n",
+  "client_email": "kourentzes-com-kon-vision-api@konstantinos-kourentzes-com.iam.gserviceaccount.com",
+  "client_id": "106669640481435817336",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kourentzes-com-kon-vision-api%40konstantinos-kourentzes-com.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

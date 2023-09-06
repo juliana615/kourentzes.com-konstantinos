@@ -1,0 +1,223 @@
+{
+	"apiVersion": "1",
+	"name": "lbb/lightbox",
+	"title": "Lightbox Block",
+	"description": "Lightbox block is an excellent choice for your WordPress Lightbox Block.",
+	"category": "widgets",
+	"keywords": [
+		"block",
+		"lightbox",
+		"gutenberg-block"
+	],
+	"textdomain": "lightbox",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"lightboxType": {
+			"type": "string",
+			"default": ""
+		},
+		"items": {
+			"type": "array",
+			"default": [
+				{
+					"type": "image",
+					"thumbnail": "https://bblockswp.com/wp-content/demo/img/green-hill.jpg",
+					"content": "https://bblockswp.com/wp-content/demo/img/green-hill.jpg",
+					"caption": "Caption Here"
+				}
+			]
+		},
+		"layout": {
+			"type": "string",
+			"default": "default"
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 3,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"columnGap": {
+			"type": "string",
+			"default": "25px"
+		},
+		"rowGap": {
+			"type": "string",
+			"default": "25px"
+		},
+		"button": {
+			"type": "object",
+			"default": {
+				"icon": {
+					"class": "fab fa-wordpress"
+				},
+				"text": "Image"
+			}
+		},
+		"galleryIcon": {
+			"type": "boolean",
+			"default": true
+		},
+		"popupOptions": {
+			"type": "object",
+			"default": {
+				"mixAllData": false
+			}
+		},
+		"popupIconLeft": {
+			"type": "object",
+			"default": {
+				"infobar": true
+			}
+		},
+		"popupIconMiddle": {
+			"type": "object",
+			"default": {
+				"zoomIn": true,
+				"zoomOut": true,
+				"toggle1to1": true,
+				"rotateCCW": true,
+				"rotateCW": true,
+				"flipX": true,
+				"flipY": true,
+				"fullscreen": true
+			}
+		},
+		"popupIconRight": {
+			"type": "object",
+			"default": {
+				"twitter": true,
+				"facebook": true,
+				"download": true,
+				"slideshow": true,
+				"thumbs": true,
+				"close": true
+			}
+		},
+		"thumb": {
+			"type": "object",
+			"default": {
+				"type": "classic",
+				"wheel": "zoom",
+				"showOnStart": true,
+				"minCount": 2
+			}
+		},
+		"btnTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 18,
+					"tablet": 15,
+					"mobile": 14
+				},
+				"fontWeight": 500,
+				"lineHeight": "100%"
+			}
+		},
+		"btnWidth": {
+			"type": "string",
+			"default": ""
+		},
+		"btnHeight": {
+			"type": "string",
+			"default": ""
+		},
+		"btnAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"btnType": {
+			"type": "string",
+			"default": ""
+		},
+		"btnStyle": {
+			"type": "string",
+			"default": ""
+		},
+		"btnColors": {
+			"type": "object",
+			"default": {
+				"color": "#333",
+				"bg": "#fff"
+			}
+		},
+		"btnHovColors": {
+			"type": "object",
+			"default": {
+				"color": "#333",
+				"bg": "#fff"
+			}
+		},
+		"btnPadding": {
+			"type": "object",
+			"default": {
+				"top": "8px",
+				"right": "15px",
+				"bottom": "8px",
+				"left": "15px"
+			}
+		},
+		"btnBorder": {
+			"type": "object",
+			"default": {
+				"color": "#0000FF",
+				"style": "solid",
+				"width": "1px"
+			}
+		},
+		"btnRadius": {
+			"type": "object",
+			"default": {
+				"top": "3px",
+				"right": "3px",
+				"bottom": "3px",
+				"left": "3px"
+			}
+		},
+		"btnMargin": {
+			"type": "object",
+			"default": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "0px",
+				"left": "0px"
+			}
+		},
+		"btnSpaceBetween": {
+			"type": "string",
+			"default": "10px"
+		},
+		"styles": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	},
+	"editorScript": "file:dist/editor.js"
+}

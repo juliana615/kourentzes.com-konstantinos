@@ -1,0 +1,10 @@
+{
+  "prefix": "lbbpro",
+  "permalinks": {
+    "lbbpro": ""
+  },
+  "features": {
+    "license": false,
+    "optIn": true
+  }
+}
