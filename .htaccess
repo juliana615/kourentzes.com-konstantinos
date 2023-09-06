@@ -1,0 +1,7 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+SetEnv GOOGLE_APPLICATION_CREDENTIALS "/home/awj2nsocppjhwdjy/public_html/konstantinos/wp-content/plugins/google-cloud-vision-image-description/konstantinos-kourentzes-com-c9adc5ef1290.json"
+# END WordPress
